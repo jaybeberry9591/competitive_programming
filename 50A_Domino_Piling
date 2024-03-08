@@ -1,0 +1,10 @@
+import math
+m,n = map(int,input().split(" "))
+
+# a = math.ceil(m/2)
+# b = math.ceil(n/1)
+
+# a = math.floor(m/2)
+# b = math.floor(n/1)
+
+print(int((m*n)/2))
