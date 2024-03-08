@@ -1,0 +1,25 @@
+participants,position = map(int,input().split(' '))
+score_list = list(input().split(' '))
+
+score = score_list[position - 1]
+
+count = 0
+
+for s_score in score_list:
+    if int(s_score) >= int(score) and int(score) != 0:
+        count = count + 1
+        
+print(count)
+
+# print(score_list)
+
+##########################################################
+participents_count, position = map(int, input().split(' '))
+scores = list(map(int, input().split(' ')))
+
+total_advanced = 0
+for point in scores:
+    if point >= scores[position-1] and point != 0:
+        total_advanced += 1
+
+print(total_advanced)
