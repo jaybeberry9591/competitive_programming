@@ -1,0 +1,13 @@
+s = list(map(int,input().split("+")))
+
+s.sort()
+
+my_string = ''
+
+for i in range(2*len(s)-1):
+    if (i % 2 != 0):
+        s.insert(i,"+")
+
+for x in s:
+    my_string += str(x)
+print(my_string)
