@@ -1,0 +1,5 @@
+s = input()
+
+s_first = s[0].capitalize()
+
+print(s_first+s[1:])
