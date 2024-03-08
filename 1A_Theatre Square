@@ -1,0 +1,15 @@
+import math
+s = input()
+s_list  = s.split(" ")
+
+# x = (int(s_list[0])*int(s_list[1])) / (int(s_list[2])*int(s_list[2]))
+
+# result = math.floor(x)
+
+# print(result * result)
+
+a = math.ceil(int(s_list[0])/int(s_list[2]))
+b = math.ceil(int(s_list[1])/int(s_list[2]))
+print(a,b)
+
+print (int(a*b))
